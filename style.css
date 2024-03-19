@@ -1,0 +1,152 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1620px;
+}
+/*шапка сайту*/
+
+
+.header {
+    background-color: #121212;
+    padding: 34px 0;
+}
+
+.header-container {
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FFFFFF;
+   padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.header-item1 {
+    color: #B2FFA6;
+}
+
+.header-list {
+    display: flex;
+    gap: 100px;
+   
+}
+
+.header-link {
+    color: #3A2E2E;
+    font-size: 700px;
+}
+ 
+/*головна секція*/
+.hero {
+    background-color: #FFFFFF;
+}
+
+.hero-container {
+    display: flex;
+    gap: 342px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title{
+    font-weight: 400;
+    font-size: 64px;
+    color: #000;
+    padding-top:150px ;
+}
+
+.hero-img{
+    width: 800px;
+    height: 800px;
+}
+
+.hero-title2{
+    font-weight:700;
+    font-size: 64px;
+    color: #000;
+    padding-top:20px ;
+    padding-bottom:50px ;
+}
+
+.hero-button{
+    border-radius: 5px;
+    padding: 15px 80px;
+    width: 364px;
+    height: 66px;
+    font-weight: 400;
+    color: #000;
+    background: #b2ffa6;
+}
+
+/*друга секція*/
+
+.about{
+    background-color: #EFEFEF;
+}
+
+.about-container{
+    display: flex;
+    gap: 78px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #000;
+    padding-top: 98px;
+    padding-bottom: 30px;
+
+}
+
+.about-img{
+    width: 742px;
+    height: 742px;
+}
+
+.about-text2{
+padding-top: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
